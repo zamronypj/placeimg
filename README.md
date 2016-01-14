@@ -9,9 +9,9 @@ Generate random image based on given width and height.
 <h2>How</h2>
 <ul>
 <li><em>HTTP GET</em> on http://[a domain name]/ will display help page.</li>
-<li><em>HTTP GET</em> on http://[a domain name/{width}x{height} will retrieve width and height, validates it and then output JPEG image.</li>
-<li><em>HTTP GET</em> on http://[a domain name/{width}x{height}/jpg will retrieve width and height, validates it and then output JPEG image.</li>
-<li><em>HTTP GET</em> on http://[a domain name/{width}x{height}/png will retrieve width and height, validates it and then output PNG image.</li>
+<li><em>HTTP GET</em> on http://[a domain name]/{width}x{height} will retrieve width and height, validates it and then output JPEG image.</li>
+<li><em>HTTP GET</em> on http://[a domain name]/{width}x{height}/jpg will retrieve width and height, validates it and then output JPEG image.</li>
+<li><em>HTTP GET</em> on http://[a domain name]/{width}x{height}/png will retrieve width and height, validates it and then output PNG image.</li>
 </ul>
 
 For example:
