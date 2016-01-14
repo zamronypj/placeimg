@@ -11,12 +11,12 @@ Place image holder web application.
 <h2>How</h2>
 <ul>
 <li><em>HTTP GET</em> on http://[a domain name]/ will display help page.</li>
-<li><em>HTTP GET</em> on http://[a domain name/{width}x{height} will retrive width and height, validates it and then output JPEG image.</li>
-<li><em>HTTP GET</em> on http://[a domain name/{width}x{height}/jpg will retrive width and height, validates it and then output JPEG image.</li>
-<li><em>HTTP GET</em> on http://[a domain name/{width}x{height}/png will retrive width and height, validates it and then output PNG image.</li>
+<li><em>HTTP GET</em> on http://[a domain name/{width}x{height} will retrieve width and height, validates it and then output JPEG image.</li>
+<li><em>HTTP GET</em> on http://[a domain name/{width}x{height}/jpg will retrieve width and height, validates it and then output JPEG image.</li>
+<li><em>HTTP GET</em> on http://[a domain name/{width}x{height}/png will retrieve width and height, validates it and then output PNG image.</li>
 </ul>
 <h2>Info</h2>
-Application is built on top of Laravel framework 5.1.
+Application is built on top of Laravel framework 5.1 and Intervention Image (<a href="http://image.intervention.io">http://image.intervention.io</a>
 
 That's it.
 
